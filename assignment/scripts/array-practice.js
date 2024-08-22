@@ -62,7 +62,7 @@ console.log('Added an animal to end,', animalArray);
 //      a dessert that you love.
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
-let dessertToPush = 'cheesecake'
+let dessert = 'cheesecake'
 favoriteFoods.push(dessertToPush);
 console.log('Added dessert to end,',favoriteFoods);
 
@@ -94,7 +94,7 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      contains the value "teal".)
 let removedColor = colors.pop();
 let lastColor = removedColor
-colors.push(lastColor);
+
 console.log(removedColor)
 console.log(lastColor)
 
@@ -106,7 +106,7 @@ console.log('The animals are now', animalArray);
 // 4.d. TODO: Remove the first value from the `colors` array and store it
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
-removedColor = colors.shift();
+firstColor = colors.shift();
 console.log('Removed the first color' , removedColor);
 console.log('the colors are now', colors);
 
